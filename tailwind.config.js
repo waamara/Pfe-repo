@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}", // If using React, Next.js, or Vue
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        myblue: '#197BBD', 
+        mygray: '#B1B1B1'
+      }
+    },
   },
   plugins: [],
 };
