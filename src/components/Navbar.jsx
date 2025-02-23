@@ -2,8 +2,10 @@
 
 const Navbar = () => {
   return (
-    <div>
-      
+    <div className="flex flex-row" >
+      <div>
+        <input type="text" placeholder=""  />
+      </div>
     </div>
   )
 }
