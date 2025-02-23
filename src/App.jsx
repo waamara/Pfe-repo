@@ -1,9 +1,13 @@
 import Dashboard from "../src/components/Dashboard"
+import Navbar from "./components/Navbar"
 
 const App = () => {
   return (
     <>
-    <Dashboard/>
+      <div className="flex flex-row" >
+        <Dashboard />
+        <Navbar />
+      </div>
     </>
   )
 }
