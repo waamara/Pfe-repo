@@ -5,7 +5,6 @@ import Bimg from "../assets/Vector (10).png"
 import Gimg from "../assets/Vector (11).png"
 import S2img from "../assets/Vector (12).png"
 import Mimg from "../assets/Vector (13).png"
-import B2img from "../assets/Vector (14).png"
 import F2img from "../assets/Vector (15).png"
 import Himg from "../assets/Vector (16).png"
 import S3img from "../assets/Vector (17).png"
@@ -36,9 +35,6 @@ const Dashboard = () => {
             </button><button className=" m-8 p-3 items-center rounded-lg w-[150px]  h-[40px] bg-white  hover:bg-myblue flex flex-row text-mygray hover:text-white">
                 <img src={Mimg} alt="Home.png" className="w-[12px] h-[12px]  mr-3 ml-3  " />
                 <p>Monnaie</p>
-            </button><button className=" m-8 p-3 items-center rounded-lg w-[150px]  h-[40px] bg-white  hover:bg-myblue flex flex-row text-mygray hover:text-white">
-                <img src={B2img} alt="Home.png" className="w-[12px] h-[12px] mr-3  ml-3  " />
-                <p>Bonne exe</p>
             </button><button className=" m-8 p-3 items-center rounded-lg w-[150px]  h-[40px] bg-white  hover:bg-myblue flex flex-row text-mygray hover:text-white">
                 <img src={F2img} alt="Home.png" className="w-[12px] h-[12px]  mr-3  ml-3 " />
                 <p>Favourite</p>

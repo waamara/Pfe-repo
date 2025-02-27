@@ -7,7 +7,7 @@ import Iocne5 from "../assets/Vector2.png";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-row justify-between items-center bg-slate- 600 w-full h-[80px] px-6">
+    <div className="flex flex-row justify-between items-center  w-full h-[80px] px-6">
       <div className="relative shadow-[0_4px_10px_rgba(0,0,0,0.08),0_-4px_10px_rgba(0,0,0,0.08)] border-none rounded-lg">
         <img
           src={Iocne1}
