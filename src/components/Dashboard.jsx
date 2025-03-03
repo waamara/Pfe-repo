@@ -42,6 +42,8 @@ const Dashboard = () => {
                 {activeMenu === "A" && menuA.map((item, index) => (
                     <Link
                         key={index}
+                        here
+                        
                         to={item.path}
                         className="m-8 p-3 flex items-center rounded-lg w-[150px] h-[40px] bg-white hover:bg-myblue text-mygray hover:text-white"
                     >
