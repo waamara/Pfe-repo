@@ -8,7 +8,8 @@ module.exports = {
       colors: {
         myblue: '#197BBD', 
         mygray: '#B1B1B1',
-        mysoftblue: '#F0F7FF'
+        mysoftblue: '#F0F7FF',
+        hover:'##CDE7FF'
       },
     },
   },
