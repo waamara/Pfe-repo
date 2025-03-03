@@ -43,7 +43,7 @@ const Dashboard = () => {
                     <Link
                         key={index}
                         to={item.path}
-                        className="m-8 p-3 flex items-center rounded-lg w-[150px] h-[40px] bg-white hover:bg-myblue text-mygray hover:text-white"
+                        className="m-8 p-3 flex items-center rounded-lg w-[150px] h-[40px] bg-white hover:bg-blue-300 text-mygray hover:text-white"
                     >
                         <img src={item.icon} alt={item.name} className="w-[12px] h-[12px] mr-3 ml-3" />
                         <p>{item.name}</p>
@@ -59,7 +59,7 @@ const Dashboard = () => {
                     <Link
                         key={index}
                         to={item.path}
-                        className="m-8 p-3 flex items-center rounded-lg w-[150px] h-[40px] bg-white hover:bg-myblue text-mygray hover:text-white"
+                        className="m-8 p-3 flex items-center rounded-lg w-[150px] h-[40px] bg-white hover:bg-blue-300 text-mygray hover:text-white"
                     >
                         <img src={item.icon} alt={item.name} className="w-[12px] h-[12px] mr-3 ml-3" />
                         <p>{item.name}</p>
